@@ -1,18 +1,27 @@
-# ng-lab4
+# AppName
 
-წინა ლაბორატორიულში(3) შესრულებული დავალება გადააკეთეს service-ების და ngModel-ის გამოყენებით:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
-1. ფორმაზე სტუდენტის დამატებისას სახელის და სხვა ველების მნიშვნელობის მისაღებად გამოიყენეთ 2 way binding (ngModel), არ გამოიყენოთ dom, getElementById, template local variable და ა. შ.
-2. დაამატეთ სერვისი StudentService რომელსაც ექნება შემდეგი მეთოდები: 
-getStidentList(): Student[]
-addStudent(student: Student)
-deleteStudent(student: Student)
-updateStudent(student: Student)
-სერვისისი კლასში დაამატეთ ველი სტუდენტების მასივი რომელიც იქნება მონაცემების წყარო ყველა ოპერაციის შესრულებისას (ზემოთ ჩამოთვლილი მეთოდები)
-3. სტუდენტების სიის გამოსატანად კომპონენტში ხისტად ჩაწერილი სიის ნაცვლად გამოიყენეთ სერვისი
-4. სტუდენტის დამატებისთვის გამოიყენეთ სერვისი
-5. დაამატეთ სტუდენტის რედაქტირების საშუალება
-6. დაამატეთ სტუდენტის წაშლის საშუალება
-7. დაამატეთ ღილაკი გაუქმება სტუდენტის რედაქტირების კომპონენტში (დაჭერის შედეგად კონკრეტულ სტუდენტზე შეტანილი ცვლილებები რომელიც მოხდა რედაქტირების დაწყებიდან ღილაკზე დაჭერამდე უნდა გაუქმდეს)
+## Development server
 
-შენიშვნა: სერვისით შესრულებული ყველა ოპერაციის შედეგი მყისიერად უნდა აისახოს სტუდენტების სიის კომპონენტის მიერ გამოტანილ სიაში
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
